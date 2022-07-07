@@ -11,8 +11,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Movement {
     @Id
     private Integer idMovement;
-    private Integer idAccount;      //id de cuenta
-    private String movementType;   //tipo movimiento (retiro, depo, pago)
-    private Float movenmetValue;          //saldo
+    private Integer idAccount;
+    private String movementType;
+    private Float movenmetValue;
 
 }
